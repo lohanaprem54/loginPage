@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- intro and pic  -->
+    <center><img src="./images/saylani.png" alt=""></center>
+    <center>
+        <h1>Saylani Online Academy</h1>
+    </center>
+    <!-- ------------------------------ -->
+    <form action="./loginpart2.html" method="">
+        <table align="center" bgcolor="gray" style="width: 30%;">
+            <center>
+               <th colspan="2"> <h1>Student Registration Form</h1></th>
+            </center>
+            <!-- FORM FIRST -->
+            <tr>
+            <td><label>Name: </label>
+            <td><input type="text" placeholder="Name" size="30" minlength="8" maxlength="13" required></td> 
+            </tr>
+            <!-- Father name --->
+            <tr>
+                <td><label>Father Name</label></td>
+                <td><input type="text" placeholder="Father Name" size="30" minlength="9" maxlength="15" required></td></tr>
+                <!-- address area  -->
+                 <tr>
+                   <td><label>Address:</label></td>
+                   <td>
+                    <textarea name=" " id="" style="width: 200px; height: 100px;">Address </textarea>
+                </td>
+                </tr>
+
+                <!-- gender section  -->
+                <tr> <td><label>Gender:</label></td>
+                <td><input type="radio" id="male" name="gender" value="male" required>
+                <label for="male">Male</label>
+
+                <input type="radio" id="Female" name="gender" value="Female" required>
+                <label for="Female"> Female</label></td></tr>
+                <!-- checkbox section  -->
+              <tr> <td> <label>Language:</label></td>
+                <td><input type="checkbox" id="Urdu" name="Language" value="Urdu">
+                <label for="Urdu">Urdu</label>
+
+                <input type="checkbox" id="English" name="Language" value="English">
+                <label for="English">English</label>
+
+                <input type="checkbox" id="Arabic" name="Language" value="Arabic">
+                <label for="Arabic">Arabic</label>
+
+                <input type="checkbox" id="Chines" name="Language" value="Chines">
+                <label for="Chines">Chines</label></td></tr>
+
+                <!-- date of birth section  -->
+            <tr>
+                <td><label for="">Date of birth</label></td>
+                <td><input type="date" name="" id=""></td>
+            </tr>
+
+
+
+
+
+            <!-- email section  -->
+          
+            <tr><td> <label> Email Id:</label></td>
+                <td><input type="text" placeholder="Email ID" size="40"></td></tr>
+
+            <!-- phone number section  -->
+           <tr> <td><label>Mobile Number:</label></td>
+            <td><input type="text" placeholder="Mobile Number" size="30"></td></tr>
+
+            <!-- city section  -->
+           <tr> <td><label>City:</label></td>
+            <td><select name="" id="">
+                <option value="" disabled selected >Select your City</option>
+                <option value="">Karachi</option>
+                <option value="">Hyderabad</option>
+                <option value="">Mirpurkhas</option>
+            </select></td></tr> 
+            <!-- hobbies -->
+            <tr>
+                <td>
+                    <label>Hobbies</label></td>
+                <td>
+                    <select name="" multiple>
+                        <option value="">Cricket</option>
+                        <option value="">Football</option>
+                        <option value="">Hockey</option>
+                        <option value="">Tennis</option>
+                    </select>
+                </td>
+            </tr>
+            <!-- upload file section  -->
+           <tr><td><label for="">Profile Picture</label></td>
+             <td><input type="file"> <button>Upload </button></td>
+            </tr>
+         <tr>
+            <td colspan="2"><center>
+            <input type="submit"></center></td>
+        </tr>
+        </table>
+    </form>
+
+</body>
+
+</html>
